@@ -25,4 +25,4 @@ gráfico. Estas características permiten desarrollar páginas más
 estructuradas y funcionales.
 
 Proyecto de GitHub:
-Se agregará el enlace del proyecto después de crear el repositorio.
+https://github.com/merwin1199/Laboratorio_3_1
