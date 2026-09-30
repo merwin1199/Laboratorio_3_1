@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Laboratorio 3.1 - Mi Primera Página Web</title>
+
+    <!--
+        HTML5 permite utilizar elementos semánticos como
+        header, nav, main, section, article y footer.
+        Estos elementos ayudan a organizar el contenido
+        y facilitan la comprensión de la estructura de la página.
+    -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+        <h1>Mi Primera Página Web</h1>
+        <p>Laboratorio 3.1 - Creación de una página web básica</p>
+        <p>Estudiante: Merwin Arciniegas Remolina</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre el proyecto</a>
+        <a href="#html5">HTML5</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección de inicio -->
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+
+            <p>
+                Esta página fue creada como parte del Laboratorio 3.1
+                para practicar HTML, HTML5 y diseño web.
+            </p>
+
+            <p>
+                HTML permite organizar el contenido de una página web
+                utilizando elementos, etiquetas, atributos y valores.
+            </p>
+        </section>
+
+        <!-- Artículo -->
+        <article id="sobre">
+            <h2>Sobre el proyecto</h2>
+
+            <p>
+                En este proyecto se utilizan etiquetas HTML básicas como
+                encabezados, párrafos, enlaces y listas.
+            </p>
+
+            <h3>Elementos utilizados</h3>
+
+            <ul>
+                <li>HTML para la estructura.</li>
+                <li>CSS para el diseño.</li>
+                <li>HTML5 para elementos semánticos y multimedia.</li>
+                <li>GitHub para guardar el proyecto.</li>
+            </ul>
+
+            <p>
+                Puedes visitar
+                <a href="https://developer.mozilla.org/es/" target="_blank">
+                    MDN Web Docs
+                </a>
+                para consultar información sobre desarrollo web.
+            </p>
+        </article>
+
+        <!-- Características HTML5 -->
+        <section id="html5">
+            <h2>Características de HTML5</h2>
+
+            <p>
+                HTML5 incorpora elementos que permiten crear estructuras
+                más claras y agregar contenido multimedia.
+            </p>
+
+            <!-- Imagen y elementos figure/figcaption -->
+            <figure>
+                <img src="images/html5.svg" alt="Imagen relacionada con HTML5">
+                <figcaption>Ejemplo de contenido relacionado con HTML5.</figcaption>
+            </figure>
+
+            <!-- Elemento de video HTML5 -->
+            <h3>Video</h3>
+
+            <video controls width="500">
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+
+            <!-- Elemento de audio HTML5 -->
+            <h3>Audio</h3>
+
+            <audio controls>
+                <source src="audio.wav" type="audio/wav">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+
+            <!-- Canvas HTML5 -->
+            <h3>Canvas</h3>
+
+            <canvas id="miCanvas" width="400" height="150">
+                Tu navegador no soporta Canvas.
+            </canvas>
+
+            <!--
+                Canvas permite dibujar gráficos mediante JavaScript.
+                Es una característica incorporada en HTML5.
+            -->
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Laboratorio 3.1 | Desarrollo Web</p>
+        <p>Proyecto realizado por Merwin Arciniegas Remolina.</p>
+    </footer>
+
+    <script>
+        // Ejemplo sencillo utilizando Canvas de HTML5.
+        const canvas = document.getElementById("miCanvas");
+        const contexto = canvas.getContext("2d");
+
+        contexto.font = "24px Arial";
+        contexto.fillText("HTML5 Canvas", 110, 80);
+    </script>
+
+</body>
+</html>

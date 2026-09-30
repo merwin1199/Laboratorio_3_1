@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+    <rect width="600" height="300" fill="#f2f4f7"/>
+    <polygon points="150,40 450,40 410,250 190,250" fill="#e34c26"/>
+    <polygon points="300,40 450,40 410,250 300,250" fill="#f06529"/>
+    <text x="300" y="150" text-anchor="middle"
+          font-family="Arial" font-size="55" font-weight="bold" fill="white">
+        HTML5
+    </text>
+    <text x="300" y="205" text-anchor="middle"
+          font-family="Arial" font-size="22" fill="white">
+        Desarrollo Web
+    </text>
+</svg>
